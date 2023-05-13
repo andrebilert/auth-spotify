@@ -1,0 +1,30 @@
+body {
+  display: inline;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+#profile {
+  border: solid 6px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+#avatar img {
+  border-radius: 50%;
+  border: 6px solid green;
+}
+
+ul {
+  text-align: center;
+  /* list-style: none; */
+}
+
+li {
+  list-style: none;
+}
+
